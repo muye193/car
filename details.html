@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>汽车之家 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.useso.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--image slider-->
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery-slider.js" type="text/javascript"></script>
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+<link href="css/easy-responsive-tabs.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/global.css">
+<script src="js/slides.min.jquery.js"></script>
+<script>
+		$(function(){
+			$('#products').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				effect: 'slide, fade',
+				crossfade: true,
+				slideSpeed: 350,
+				fadeSpeed: 500,
+				generateNextPrev: true,
+				generatePagination: false
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="logo">
+      <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+    </div>
+    <div class="clear"></div>
+    <div class="h_main">
+      <ul class="nav">
+        <li class="active"><a href="index.html">主页</a></li>
+        <li><a href="maintain.html">主打产品</a></li>
+        <li><a href="repair.html">售后</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+      <div class="search">
+        <form>
+          <input type="text" value="">
+          <input type="submit" value="">
+        </form>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="main1">
+      <div class="details">
+        <div class="product-details">
+          <div class="images_3_of_2">
+            <div id="container">
+              <div id="products_example">
+                <div id="products">
+                  <div class="slides_container"> <a href="#" target="_blank"><img src="images/productslide-1.jpg" alt=" " /></a> <a href="#" target="_blank"><img src="images/productslide-2.jpg" alt=" " /></a> <a href="#" target="_blank"><img src="images/productslide-3.jpg" alt=" " /></a> <a href="#" target="_blank"><img src="images/productslide-4.jpg" alt=" " /></a> </div>
+                  <ul class="pagination">
+                    <li><a href="#"><img src="images/d_pic1.jpg" alt=" " /></a></li>
+                    <li><a href="#"><img src="images/d_pic2.jpg" alt=" " /></a></li>
+                    <li><a href="#"><img src="images/d_pic3.jpg" alt=" " /></a></li>
+                    <li><a href="#"><img src="images/d_pic4.jpg" alt=" " /></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="desc span_3_of_2">
+            <h2>Das Beste Oder Nichts（惟有最好） </h2>
+            <p>奔驰的三叉星象征着征服陆、海、空的愿望</p>
+            <div class="price">
+              <p>价格: <span>$5000</span></p>
+            </div>
+            <div class="available">
+              <p>设置 :</p>
+              <ul>
+                <li>颜色:
+                  <select>
+                    <option>黑色</option>
+                    <option>白色</option>
+                    <option>红色</option>
+                    <option>蓝色</option>
+                  </select>
+                </li>
+                <li>型号:
+                  <select>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>small</option>
+                    <option>Large</option>
+                    <option>small</option>
+                  </select>
+                </li>
+                <li>数量:
+                  <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <div class="share-desc">
+              <div class="share">
+                <p>分享 :</p>
+                <ul>
+                  <li><a href="#"><img src="images/icon_1.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/icon_2.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/icon_3.png" alt=""></a></li>
+                </ul>
+              </div>
+              <div class="button1"><span><a href="details.html" class="button button-rounded" >加入购物车</a></span></div>
+              <div class="clear"></div>
+            </div>
+            <div class="wish-list">
+              <ul>
+                <li class="wish"><a href="#">加入收藏</a></li>
+                <li class="compare"><a  href="#">加入对比</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="product_desc">
+          <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+            <ul class="resp-tabs-list">
+              <li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0" role="tab">产品详情</li>
+              <li class="resp-tab-item" aria-controls="tab_item-1" role="tab">产品标签</li>
+              <li class="resp-tab-item" aria-controls="tab_item-2" role="tab">产品评论</li>
+              <div class="clear"></div>
+            </ul>
+            <div class="resp-tabs-container">
+              <h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>产品详情</h2>
+              <div class="product-desc resp-tab-content resp-tab-content-active" style="display:block" aria-labelledby="tab_item-0">
+                <p>梅赛德斯-奔驰是世界著名的<span>德国汽车品牌</span>。1886年1月，卡尔·本茨发明了世界上第一辆三轮汽车，并获得专利，与此同时，奔驰的另一位创始人戈特利布·戴姆勒也发明了世界上第一辆四轮汽车。1926年6月，戴姆勒公司与奔驰公司合并成立了戴姆勒-奔驰汽车公司，以梅赛德斯-奔驰命名的汽车正式出现，并从此以高质量、高性能的汽车产品闻名于世。</p>
+                <p>梅赛德斯-奔驰是世界著名的<span>德国汽车品牌</span>。1886年1月，卡尔·本茨发明了世界上第一辆三轮汽车，并获得专利，与此同时，奔驰的另一位创始人戈特利布·戴姆勒也发明了世界上第一辆四轮汽车。1926年6月，戴姆勒公司与奔驰公司合并成立了戴姆勒-奔驰汽车公司，以梅赛德斯-奔驰命名的汽车正式出现，并从此以高质量、高性能的汽车产品闻名于世。</p>
+                <p>梅赛德斯-奔驰是世界著名的<span>德国汽车品牌</span>。1886年1月，卡尔·本茨发明了世界上第一辆三轮汽车，并获得专利，与此同时，奔驰的另一位创始人戈特利布·戴姆勒也发明了世界上第一辆四轮汽车。1926年6月，戴姆勒公司与奔驰公司合并成立了戴姆勒-奔驰汽车公司，以梅赛德斯-奔驰命名的汽车正式出现，并从此以高质量、高性能的汽车产品闻名于世。</p>
+              </div>
+              <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>产品标签</h2>
+              <div class="product-tags resp-tab-content" aria-labelledby="tab_item-1">
+                  <p>梅赛德斯-奔驰是世界著名的德国汽车品牌。1886年1月，卡尔·本茨发明了世界上第一辆三轮汽车，并获得专利，与此同时，奔驰的另一位创始人戈特利布·戴姆勒也发明了世界上第一辆四轮汽车。1926年6月，戴姆勒公司与奔驰公司合并成立了戴姆勒-奔驰汽车公司，以梅赛德斯-奔驰命名的汽车正式出现，并从此以高质量、高性能的汽车产品闻名于世。</p>
+                <h4>添加你的标签:</h4>
+                <div class="input-box">
+                  <input type="text" value="">
+                </div>
+                <div class="button"><span><a href="#">添加</a></span></div>
+              </div>
+              <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>产品评论</h2>
+              <div class="review resp-tab-content" aria-labelledby="tab_item-2">
+                <h4>综合评价</h4>
+                <ul>
+                  <li>价格 :<a href="#"><img src="images/price-rating.png" alt=""></a></li>
+                  <li>售后:<a href="#"><img src="images/value-rating.png" alt=""></a></li>
+                  <li>质量 :<a href="#"><img src="images/quality-rating.png" alt=""></a></li>
+                </ul>
+                  <p>梅赛德斯-奔驰是世界著名的德国汽车品牌。1886年1月，卡尔·本茨发明了世界上第一辆三轮汽车，并获得专利，与此同时，奔驰的另一位创始人戈特利布·戴姆勒也发明了世界上第一辆四轮汽车。1926年6月，戴姆勒公司与奔驰公司合并成立了戴姆勒-奔驰汽车公司，以梅赛德斯-奔驰命名的汽车正式出现，并从此以高质量、高性能的汽车产品闻名于世。</p>
+                <div class="your-review">
+                  <h3>你认为产品怎样?</h3>
+                  <p>写下你的评论?</p>
+                  <form>
+                    <div> <span>
+                      <label>名字<span class="red">*</span></label>
+                      </span> <span>
+                      <input type="text" value="">
+                      </span> </div>
+                    <div><span>
+                      <label>你的评论摘要<span class="red">*</span></label>
+                      </span> <span>
+                      <input type="text" value="">
+                      </span> </div>
+                    <div> <span>
+                      <label>评论<span class="red">*</span></label>
+                      </span> <span>
+                      <textarea> </textarea>
+                      </span> </div>
+                    <div> <span>
+                      <input type="submit" value="提交">
+                      </span> </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+    $(document).ready(function () {
+        $('#horizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion           
+            width: 'auto', //auto or any width like 600px
+            fit: true   // 100% fit in a container
+        });
+    });
+   </script>
+        <div class="content_bottom">
+          <div class="text-h1 top1 btm">
+            <h2>Das Beste Oder Nichts（惟有最好）</h2>
+          </div>
+          <div class="div2">
+            <div id="mcts1"> <img src="images/d_pic2.jpg" alt=""/> <img src="images/d_pic1.jpg" alt="" /> <img src="images/d_pic3.jpg" alt="" /> <img src="images/d_pic4.jpg" alt=""/> <img src="images/d_pic1.jpg" alt="" /> <img src="images/d_pic4.jpg" alt="" /> </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="f_left">
+      <div class="f_nav">
+        <ul>
+          <li><a href="#">关于我们</a></li>
+          <li><a href="#">网站地图</a></li>
+          <li><a href="#">客户服务</a></li>
+          <li><a href="#">服务团队</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </div>
+      <div class="copy">
+        <p class="w3-link">Copyright©2017.Company name All rights reserved.</p>
+      </div>
+    </div>
+    <div class="social-icons">
+      <ul>
+        <li class="icon1"><a href="#" target="_blank"> </a></li>
+        <li class="icon2"><a href="#" target="_blank"> </a></li>
+        <li class="icon3"><a href="#" target="_blank"> </a></li>
+        <li class="icon4"><a href="#" target="_blank"> </a></li>
+        <div class="clear"></div>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</body>
+</html>
